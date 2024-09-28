@@ -16,8 +16,11 @@ Use a JavaScript object to store the details of the countries you want to displa
 1.  If the country is found in the object, display the country’s details.
 2.  If the country is not found, display a message: "Country not found."
 
-![Local Image](./route-group.png "Route Group")
 ![Local Image](./assignment.png "Assignment")
+
+**====================================================================================**
+
+![Local Image](./route-group.png "Route Group")
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
