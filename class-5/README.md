@@ -1,3 +1,7 @@
+![Local Image](./static_routes.png "Static Route")
+
+![Local Image](./dynamic_routes.png "Dynamic Route")
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
