@@ -48,6 +48,22 @@ In this task, you will create a simple one-page website about yourself using HTM
 
 This is a great opportunity to practice your HTML and CSS skills while showcasing who you are and your accomplishments!
 
+---
+## Learning videos of HTML, CSS and GIT
+[Learn HTML by Hira Khan (Watch Recorded Videos)](https://www.youtube.com/playlist?list=PLKvqnz8z1zWQ3BALy86tIXICkG874wAc6)
+
+[Learn CSS Intro by Hira Khan (Watch Recorded Videos)](https://www.youtube.com/playlist?list=PLKvqnz8z1zWQSWIen_zUSEBmtqzPLuRob)
+
+[Learn Git & GitHub by Zeeshan Hanfi](https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF)
+
+[Start building with Next.js](https://nextjs.org/learn?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=home)
+
+[React Foundations](https://nextjs.org/learn/react-foundations)
+
+[NextJS Documentation](https://nextjs.org/docs)
+
+---
+
 
 ![Local Image](./server%20side%20rendring.png "Server Side Rendering")
 
@@ -56,6 +72,8 @@ This is a great opportunity to practice your HTML and CSS skills while showcasin
 ![Local Image](./nextjs.png "NextJS")
 
 ![Local Image](./Seo.png "NextJS")
+
+---
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
