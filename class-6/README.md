@@ -15,7 +15,7 @@ For example:
 
 ## Task 2: Build a Personal Resume Website
 
-In this task, you will create a simple one-page website about yourself using HTML and CSS in NEXTJS environment. This website will serve as your personal resume. Follow the guidelines below to complete the assignment:
+In this task, you will create a simple one-page website about yourself using **HTML** and **CSS** in **NEXTJS environment**. This website will serve as your personal resume. Follow the guidelines below to complete the assignment:
 
 ### Requirements:
 1. **Basic Information Section**:
