@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Task: Convert the following Figma design into HTML
+[https://www.figma.com/design/apAzcqiwCCsIDB5DNTiF8k/first-web-design?m=auto&t=o177GGIsKSVIrmfZ-1] (https://www.figma.com/design/apAzcqiwCCsIDB5DNTiF8k/first-web-design?m=auto&t=o177GGIsKSVIrmfZ-1)
+
+## Figma Design in class
+[https://www.figma.com/design/eo5koRn7rNGGOFuGrJ6pKW/GIAIC-BLOG?node-id=1-2&m=dev&t=SHc2ug759I2m4TtJ-1](https://www.figma.com/design/eo5koRn7rNGGOFuGrJ6pKW/GIAIC-BLOG?node-id=1-2&m=dev&t=SHc2ug759I2m4TtJ-1)
+
+## Figma UI Design Series By Asif Shah
+[https://www.youtube.com/playlist?list=PL0vKVrkG4hWrLHcaP4xsDI-8tXX1lkbgF](https://www.youtube.com/playlist?list=PL0vKVrkG4hWrLHcaP4xsDI-8tXX1lkbgF)
+
 
 ## Getting Started
 
