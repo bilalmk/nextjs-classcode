@@ -4,9 +4,8 @@
 ## Figma UI Design Series By Asif Shah
 [https://www.youtube.com/playlist?list=PL0vKVrkG4hWrLHcaP4xsDI-8tXX1lkbgF](https://www.youtube.com/playlist?list=PL0vKVrkG4hWrLHcaP4xsDI-8tXX1lkbgF)
 
-## Assignment 4:  Convert the provided Figma design into HTML
-  
-**
+
+## Assignment 4:  Convert the provided Figma design into HTML**
 
 **Objective**:
 
@@ -14,52 +13,41 @@ The goal of this task is to convert the provided Figma design into a **pixel-pe
 
 **Figma Design Link:**
 
-[First Web Design Figma](https://www.figma.com/design/apAzcqiwCCsIDB5DNTiF8k/first-web-design?m=auto&t=o177GGIsKSVIrmfZ-1)  
-https://www.figma.com/design/apAzcqiwCCsIDB5DNTiF8k/first-web-design?m=auto&t=o177GGIsKSVIrmfZ-1
+[First Web Design Figma](https://www.figma.com/design/apAzcqiwCCsIDB5DNTiF8k/first-web-design?m=auto&t=o177GGIsKSVIrmfZ-1)
+https://www.figma.com/design/apAzcqiwCCsIDB5DNTiF8k/first-web-Sssdesign?m=auto&t=o177GGIsKSVIrmfZ-1
 
 **Requirements:**
 
-1.  **Next.js Environment**:
-
-*   Set up a Next.js environment to handle the project efficiently.
-*   Ensure that your project structure follows Next.js conventions, including the pages and components directories.
-
-3.  **Pixel-Perfect Conversion**:
-
-*   The final web page should be visually identical to the Figma design.
-*   Pay close attention to margins, paddings, colors, and font sizes as specified in the design.
-
-5.  **CSS Framework**:
-
-*   You can either write **custom CSS** or use **Tailwind CSS** for styling.
-*   Make sure to adhere to best practices where necessary.
-
-7.  **Components**:
-
-*   If the design includes repeating sections, turn them into reusable **Next.js components** to follow DRY (Don’t Repeat Yourself) principles.
-*   Organize components logically, such as creating header, footer, and content section components.
-
-9.  **Responsive Design (Optional)**:
-
-*   Ensure the web page is fully responsive, adjusting to different screen sizes without compromising the design quality.
-
-11.  **Functionality**:
-
-*   Add any required interactive elements as per the Figma design (e.g., buttons, links, etc.).
-*   Use the Next.js routing system to navigate between pages if multiple pages are provided.
+1. **Next.js Environment**:
+   1. Set up a Next.js environment to handle the project efficiently.
+   1. Ensure that your project structure follows Next.js conventions, including the pages and components directories.
+1. **Pixel-Perfect Conversion**:
+   1. The final web page should be visually identical to the Figma design.
+   1. Pay close attention to margins, paddings, colors, and font sizes as specified in the design.
+1. **CSS Framework**:
+   1. You can either write **custom CSS** or use **Tailwind CSS** for styling.
+   1. Make sure to adhere to best practices where necessary.
+1. **Components**:
+   1. If the design includes repeating sections, turn them into reusable **Next.js components** to follow DRY (Don’t Repeat Yourself) principles.
+   1. Organize components logically, such as creating header, footer, and content section components.
+1. **Responsive Design (Optional)**:
+   1. Ensure the web page is fully responsive, adjusting to different screen sizes without compromising the design quality.
+1. **Functionality**:
+   1. Add any required interactive elements as per the Figma design (e.g., buttons, links, etc.).
+   1. Use the Next.js routing system to navigate between pages if multiple pages are provided.
 
 **Tools & Technologies**:
 
-*   **Next.js**
-*   **Tailwind CSS or Custom CSS**
-*   **Figma** for design reference
+- **Next.js**
+- **Tailwind CSS or Custom CSS**
+- **Figma** for design reference
 
 **Evaluation Criteria**:
 
-*   **Accuracy**: How closely the HTML and CSS match the Figma design.
-*   **Responsiveness (Optional)**: The layout's adaptability to different screen sizes.
-*   **Code Organization**: Use of Next.js components for reusability and maintainability.
-*   **CSS Efficiency**: Whether you chose Tailwind CSS or custom CSS, the code should be clean, well-structured, and efficient.
+- **Accuracy**: How closely the HTML and CSS match the Figma design.
+- **Responsiveness (Optional)**: The layout's adaptability to different screen sizes.
+- **Code Organization**: Use of Next.js components for reusability and maintainability.
+- **CSS Efficiency**: Whether you chose Tailwind CSS or custom CSS, the code should be clean, well-structured, and efficient.
 
 
 ## Getting Started
