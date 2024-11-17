@@ -1,7 +1,6 @@
 "use client"
 
 export default function Home() {
-  let test:number = 0
   function sayHello() {
     console.log("Hello");
   }
@@ -13,7 +12,7 @@ export default function Home() {
       </h1>
     
      </button>
-    <div>
+    </div>
    
   );
 }
