@@ -39,9 +39,9 @@ Create a simple ToDo application using React and the `useState` hook to manage t
 
 --- 
 
-[ReactJS Virtual DOM](https://www.geeksforgeeks.org/reactjs-virtual-dom/)
-[Demystifying the DOM and Virtual DOM in Web Development](https://www.linkedin.com/pulse/demystifying-dom-virtual-web-development-fatemeh-mahmoudi-rlzle/)
-[Comparing Real DOM and Virtual DOM [React Real DOM vs Virtual DOM]](https://www.youtube.com/watch?v=8TkplB9gFjQ)
+- [ReactJS Virtual DOM](https://www.geeksforgeeks.org/reactjs-virtual-dom/)
+- [Demystifying the DOM and Virtual DOM in Web Development](https://www.linkedin.com/pulse/demystifying-dom-virtual-web-development-fatemeh-mahmoudi-rlzle/)
+- [Comparing Real DOM and Virtual DOM [React Real DOM vs Virtual DOM]](https://www.youtube.com/watch?v=8TkplB9gFjQ)
 
 ---
 
