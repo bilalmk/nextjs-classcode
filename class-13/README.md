@@ -1,5 +1,5 @@
 ## Rename the .env.local file to .env before executing the code.
-** Please create your own account on Sanity and create a project. Then, replace the project ID in the .env file. Currently, it is using my project ID; you need to use your own project ID
+**Please create your own account on Sanity and create a project. Then, replace the project ID in the .env file. Currently, it is using my project ID; you need to use your own project ID
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
