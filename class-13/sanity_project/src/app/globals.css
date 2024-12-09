@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f9f9f9;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .main{
+    @apply max-w-6xl mx-auto px-4
+  }
+  
+  .blog-section{
+    @apply flex flex-col sm:flex-row bg-slate-400/50 bg-white shadow-lg rounded-lg overflow-hidden
+  }
+
+  .card{
+    @apply p-4 bg-slate-400/50
+  }
+
+  .card .datetime{
+    @apply flex gap-x-4 items-center
+  }
+
+  .card .heading{
+    @apply text-2xl font-semibold text-gray-800 mt-2
+  }
+
+  .card .author{
+    @apply text-sm text-gray-500 mt-1
+  }
+
+  .card .read_more{
+    @apply text-blue-800 font-bold bg-yellow-600/50 px-6 py-2 rounded-2xl self-start  hover:bg-blue-600/20 hover:text-black
+  }
+
+  .blog-section-img{
+    @apply w-full h-full object-cover rounded-l-3xl
+  }
+
+  .navbar{
+    @apply grid grid-cols-[repeat(3,auto)] justify-center gap-x-10 px-6 py-2 bg-yellow-700/50
+  }
+
+  .navbar a{
+    @apply text-white rounded-xl px-6 py-2 border-[1px] border-white bg-slate-600 hover:text-blue-300
+  }
+
+  .category{
+    @apply flex flex-col justify-center items-center gap-y-8 mt-20
+  }
+
+  .category a{
+    @apply text-blue-600 hover:text-black hover:underline px-6 py-2 text-2xl font-bold
+  }
+
+  .card a{
+    @apply text-gray-700/85 font-semibold text-sm underline hover:text-black hover:underline
+  }
+}
