@@ -1,8 +1,9 @@
+import { cookies } from "next/headers.js";
 import Logout from "./Logout";
 
 
 const Menu = async() => {
-  
+  const token = cookies().get("token")
   return (
     <nav className="bg-gray-800 shadow-lg">
       <div className="container mx-auto px-4">
@@ -17,7 +18,8 @@ const Menu = async() => {
                 Home
               </a>
             </li>
-            
+            { token ? 
+            <>
             <li>
               <a
                 href="/dashboard"
@@ -34,7 +36,9 @@ const Menu = async() => {
                 Todos
               </a>
             </li>
-            
+            </>
+            :
+            <>
             <li>
               <a
                 href="/signin"
@@ -51,6 +55,7 @@ const Menu = async() => {
                 Signup
               </a>
             </li>
+            </>
             }
             <li>
               <a
@@ -68,11 +73,11 @@ const Menu = async() => {
                 Contact Us
               </a>
             </li>
-            
+            { token && 
             <li>
               <Logout/>
             </li>
-            
+            }
           </ul>
         </div>
       </div>

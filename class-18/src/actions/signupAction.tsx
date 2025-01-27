@@ -1,13 +1,11 @@
 "use server"
-const handleSubmitForm = async (prevState:any, fromData:FormData)=>{
-        const name = fromData.get("name")
-        const email = fromData.get("email")
-        const password = fromData.get("password")
-    
+const handleSubmitForm = async (prevState:any, formData:FormData)=>
+{
+    try{
         const fields = {
-            name:name,
-            email:email,
-            password:password
+            name:formData.get("name"),
+            email:formData.get("email"),
+            password:formData.get("password")
         }
         
         const response = await fetch("http://localhost:3000/api/signup",{
@@ -23,8 +21,13 @@ const handleSubmitForm = async (prevState:any, fromData:FormData)=>{
             return data.message
 
         return data.message
-
-
     }
+    catch(error)
+        {
+            console.log(error.message)
+            return error.message
+        }
+
+}
 
 export default handleSubmitForm

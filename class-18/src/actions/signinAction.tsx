@@ -5,14 +5,14 @@ import * as jose from 'jose'
 import { cookies } from "next/headers.js"
 
 const handleSubmitForm = async (prevState:any, fromData:FormData)=>{
-        const email = fromData.get("email")
-        const password = fromData.get("password")
-    
+    try{
+   
         const fields = {
-            email:email,
-            password:password
+            email:fromData.get("email"),
+            password:fromData.get("password")
         }
         
+        // post data to end point for login
         const response = await fetch("http://localhost:3000/api/signin",{
             method:"POST",
             headers:{
@@ -22,27 +22,49 @@ const handleSubmitForm = async (prevState:any, fromData:FormData)=>{
         })
 
         const data = await response.json()
+
+        //return error message if user not found
         if(!response.ok)
             return data.message
 
-        //return data.message
-        // token generate
-        const secret = new TextEncoder().encode(process.env.SECRET)
+        const user = data.user
         
-          const alg = 'HS256'
-        
-          const token = await new jose.SignJWT()
-            .setProtectedHeader({ alg })
-            .setExpirationTime('2h')
-            .sign(secret)
+        // payload stored in generated token
+        const payload = {
+            user:user,
+            roles:['admin','user'],
+            permissions:{
+                read:true,
+                write:true
+            }
+        }
 
-        // cookie
+        // generate jwt token
+        const secret = new TextEncoder().encode(process.env.SECRET)
+        const alg = 'HS256'
+        const token = await new jose.SignJWT(payload)
+        .setProtectedHeader({ alg })
+        .setIssuedAt()
+        .setSubject(user.id.toString())
+        .setExpirationTime('2h')
+        .sign(secret)
+
+        // save token in cookie
+        const expirationDate = new Date(Date.now() + 10*60*1000)
 
         cookies().set("token",token,{
-            expires:new Date(Date.now()+2*60*1000)
+            expires:expirationDate,
+            httpOnly:true,
+            path:"/",
+            sameSite:"strict"
         })
-        redirect("/dashboard")
-
     }
+    catch(error)
+    {
+        console.log(error.message)
+        return error.message
+    }
+    redirect("/dashboard")
+}
 
 export default handleSubmitForm
