@@ -38,7 +38,7 @@ const handleSubmitForm = async (prevState:any, fromData:FormData)=>{
                 write:true
             }
         }
-
+        console.log(process.env.SECRET)
         // generate jwt token
         const secret = new TextEncoder().encode(process.env.SECRET)
         const alg = 'HS256'
@@ -46,11 +46,11 @@ const handleSubmitForm = async (prevState:any, fromData:FormData)=>{
         .setProtectedHeader({ alg })
         .setIssuedAt()
         .setSubject(user.id.toString())
-        .setExpirationTime('2h')
+        .setExpirationTime('1m') // jwt token timeout vaue
         .sign(secret)
 
         // save token in cookie
-        const expirationDate = new Date(Date.now() + 10*60*1000)
+        const expirationDate = new Date(Date.now() + 1*60*1000) // set cookie timeout value
 
         cookies().set("token",token,{
             expires:expirationDate,

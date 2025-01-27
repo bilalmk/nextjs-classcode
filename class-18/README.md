@@ -13,8 +13,16 @@ This project demonstrates how to use **Next.js server actions** in combination w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/bilalmk/nextjs-classcode
+   cd nextjs-classcode/class-18
+
+2. create .env file and create variable SECRET
+
+3. use following URL's to generate secret key
+   - https://generate-secret.vercel.app/64
+   - https://passwordsgenerator.net/
+
+4. set SECRET key value in .env file
 
 
 ## Deploy on Vercel

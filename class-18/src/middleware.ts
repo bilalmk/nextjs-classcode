@@ -19,12 +19,11 @@ export async function middleware(request: NextRequest) {
     catch(error)
     {
       if(error.code=="ERR_JWT_EXPIRED")
-        {
-            console.error('Token has expired.');
-            return NextResponse.redirect(new URL('/signin', request.url));
-        }
-        else
-            console.error('Token verification failed:', error.message);
+          console.error('Token has expired.');
+      else
+          console.error('Token verification failed:', error.message);
+      return NextResponse.redirect(new URL('/signin', request.url));
+      
     }
 }
  
